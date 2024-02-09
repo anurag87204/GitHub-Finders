@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon_io/favicon.ico" />
+    <link rel="stylesheet" href="style.css" />
+    <title>GitHub Finder</title>
+</head>
+
+<body>
+    <div class="search-container">
+        <div class="search-card">
+            <h1>Search GitHub Users</h1>
+            <p class="lead">Enter a Username to fetch a user profile and repos</p>
+            <div class="wrapper">
+                <p class="github-symbol">
+                    <i class="fa-brands fa-github"></i> Username
+                </p>
+                <input type="text" name="Search GitHUb Users" id="search-user" placeholder="GitHub Username..." />
+            </div>
+        </div>
+        <br />
+        <div id="profile"></div>
+    </div>
+
+    <footer>
+        Build and designed by
+        <a href="https://github.com/anurag87204" target="_blank">Anurag Rai</a>
+    </footer>
+    <script src="github.js"></script>
+    <script src="ui.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
